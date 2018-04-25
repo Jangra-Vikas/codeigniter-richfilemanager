@@ -8,20 +8,13 @@ class RichFilemanager extends CI_Controller {
     }
     
 	public function index()
-	{        
-        
+	{     
         $this->load->view('RichFilemanager/index');
     }
     
     public function localAPI()
-	{
-                $app = new \RFM\Application();
-                // local filesystem storage
-                $local = new \RFM\Repository\Local\Storage($this->richfilemanagerlib->RICH_FILE_MANAGER_CONFIG["local"]);
-                $app->setStorage($local);        
-                // local filesystem API
-                $app->api = new \RFM\Api\LocalApi();
-                $app->run();
+	{               
+       $this->richfilemanagerlib->local()->run(); 
     }
     
     public function s3()
