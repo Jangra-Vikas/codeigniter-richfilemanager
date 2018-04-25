@@ -55,7 +55,7 @@
     },
     "api": {
         "lang": "php",
-        "connectorUrl": "/localAPI",
+        "connectorUrl": "/richfilemanager/localAPI",
         "requestParams": {
             "GET": {},
             "POST": {},
