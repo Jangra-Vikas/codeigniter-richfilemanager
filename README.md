@@ -1,0 +1,2 @@
+# codeigniter-richfilemanager
+Codeigniter RichFileManager Integration
