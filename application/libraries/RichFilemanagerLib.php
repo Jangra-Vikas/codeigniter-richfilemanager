@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class RichFilemanagerLib
+class RichFilemanagerLib 
 {
 
         public $RICH_FILE_MANAGER_CONFIG = array();
@@ -13,8 +13,7 @@ class RichFilemanagerLib
 	}
 
 	public function local()
-	{
-
+	{          
                 $app = new \RFM\Application();
                 // local filesystem storage
                 $local = new \RFM\Repository\Local\Storage($this->RICH_FILE_MANAGER_CONFIG["local"]);
@@ -36,24 +35,12 @@ class RichFilemanagerLib
                 $app->api = new RFM\Api\AwsS3Api();
                 return $app;
         }
+
+
         
-        function fm_authenticate()
-        {
-                // Customize this code as desired.
-                return true;
-        }
 
-        function fm_has_read_permission($filepath)
-        {
-                // Customize this code as desired.
-                return true;
-        }
-
-        function fm_has_write_permission($filepath)
-        {
-                // Customize this code as desired.
-                return true;
-        }
+        
+        
 }
 
 /* End of file RichFilemanagerLib.php */

@@ -21,6 +21,8 @@ class RichFilemanager extends CI_Controller {
 	{
         $this->richfilemanagerlib->s3()->run();        
     }
+
+    
     
     
 }
