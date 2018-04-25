@@ -8,8 +8,7 @@ class RichFilemanagerLib
 	function __construct($config = array())
 	{	
         
-                $this->RICH_FILE_MANAGER_CONFIG = $config;
-                log_message('error', print_r($config["local"],true));
+                $this->RICH_FILE_MANAGER_CONFIG = $config;                
 		log_message('info', 'RichFilemanagerLib Class Initalized');
 	}
 

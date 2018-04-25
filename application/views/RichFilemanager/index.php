@@ -5,8 +5,8 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Rich FileManager</title>
 
-	<link rel="stylesheet" type="text/css" href="src/css/libs-main.css" />
-	<link rel="stylesheet" type="text/css" href="src/css/filemanager.min.css" />
+	<link rel="stylesheet" type="text/css" href="/codeigniter-richfilemanager/src/css/libs-main.css" />
+	<link rel="stylesheet" type="text/css" href="/codeigniter-richfilemanager/src/css/filemanager.min.css" />
 
 	<style type="text/css">
 		.fm-container .fm-loading-wrap {
@@ -17,7 +17,7 @@
 			top: 0;
 			left: 0;
 			display: block;
-			background: white url(./images/spinner.gif) no-repeat center center;
+			background: white url(/codeigniter-richfilemanager/images/spinner.gif) no-repeat center center;
 			z-index: 999;
 		}
 	</style>
@@ -432,9 +432,9 @@
 			</div>
 		</div>
 
-		<script type="text/javascript" src="src/js/libs-main.js"></script>
-		<script type="text/javascript" src="src/js/filemanager.min.js"></script>
-		<script type="text/javascript" src="config/filemanager.init.js"></script>
+		<script type="text/javascript" src="/codeigniter-richfilemanager/src/js/libs-main.js"></script>
+		<script type="text/javascript" src="/codeigniter-richfilemanager/src/js/filemanager.min.js"></script>
+		<script type="text/javascript" src="/codeigniter-richfilemanager/config/filemanager.init.js"></script>
 
 		<!-- Start RichFilemanager plugin -->
 		<script type="application/javascript">

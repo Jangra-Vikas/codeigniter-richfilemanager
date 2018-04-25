@@ -18,7 +18,7 @@ $.richFilemanagerPlugin = function(element, pluginOptions)
 	 * Plugin's default options
 	 */
 	var defaults = {
-		baseUrl: '.',	// relative path to the FM plugin folder
+		baseUrl: '/codeigniter-richfilemanager/index.php/richfilemanager/local',	// relative path to the FM plugin folder
 		config: {},		// configuration options
         callbacks: {
             beforeCreateImageUrl: function (resourceObject, url) {

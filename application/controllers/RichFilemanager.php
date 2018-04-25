@@ -14,13 +14,12 @@ class RichFilemanager extends CI_Controller {
     
     public function local()
 	{
-        $this->richfilemanagerlib->local()->run();
-        $this->load->view('RichFilemanager/index');
+       $app = $this->richfilemanagerlib->local()->run();
+       
     }
     
     public function s3()
 	{
-        $this->richfilemanagerlib->s3()->run();
-        $this->load->view('RichFilemanager/index');
+        $this->richfilemanagerlib->s3()->run();        
 	}
 }
