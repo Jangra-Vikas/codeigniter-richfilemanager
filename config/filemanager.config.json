@@ -55,7 +55,7 @@
     },
     "api": {
         "lang": "php",
-        "connectorUrl": false,
+        "connectorUrl": "/localAPI",
         "requestParams": {
             "GET": {},
             "POST": {},

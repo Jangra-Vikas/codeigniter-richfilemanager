@@ -26,7 +26,7 @@ $config = array(
                                      * Full path to log file, e.g. "/var/log/filemanager/logfile".
                                      * By default the application writes logs to "filemanager.log" file that located at sys_get_temp_dir()
                                      */
-                                    "file" => null,
+                                    "file" => APPPATH.'/logs/richfilemanager-log.php',
                                 ],
                                 /**
                                  * General options section
@@ -46,7 +46,7 @@ $config = array(
                                      * - absolute path in case `serverRoot` set to "false", e.g. "/var/www/html/filemanager/userfiles/"
                                      * - relative path in case `serverRoot` set to "true", e.g. "/filemanager/userfiles/"
                                      */
-                                    "fileRoot" => false,
+                                    "fileRoot" => './userfiles',
                                     /**
                                      * The maximum allowed root folder total size (in Bytes). If set to "false", no size limitations applied.
                                      */
