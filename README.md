@@ -19,6 +19,7 @@ Simple integration of the RichFileManager Package
                 "vendor-dir": "application/vendor"        
                 }	
         ```
+	
 -   Step 4:
     -   Run `compser install` in project root folder. 
     -   Composer will install richfilemanager-php and keep the files under
