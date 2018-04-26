@@ -28,8 +28,7 @@ Simple integration of the RichFileManager Package
          			},
           "require": {
         				"servocoder/richfilemanager-php": "\^1.2"
-        			} 
-	```
+        			} ```
 
 -   Step 4:
 
