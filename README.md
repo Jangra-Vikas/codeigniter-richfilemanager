@@ -17,7 +17,7 @@ Simple integration of the RichFileManager Package
                 },
             "config": {
                 "vendor-dir": "application/vendor"        
-            }	
+                }	
         ```
 -   Step 4:
     -   Run `compser install` in project root folder. 
