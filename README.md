@@ -10,6 +10,7 @@ Simple integration of the RichFileManager Package
         `$config['composer_autoload'] = TRUE;` in application/config/config.php
 
 -   Step 3: Add composer.json to codeigniter root folder if does not exit and add the following code
+
         ```javascript
             "require": {		
                     "servocoder/richfilemanager-php": "^1.2"
