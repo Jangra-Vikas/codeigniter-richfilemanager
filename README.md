@@ -1,8 +1,6 @@
 # codeigniter-richfilemanager
-Codeigniter RichFileManager Integration
-
 Simple integration of the RichFileManager Package
-(<https://github.com/servocoder/RichFilemanager>) into CodeIngiter.
+(<https://github.com/servocoder/RichFilemanager>) into CodeIngiter ( Codeigniter RichFileManager Integration ).
 
 **Installation**
 
