@@ -49,3 +49,17 @@ Simple integration of the RichFileManager Package
 -   Step 6:
     -   http://<project.com>/richfilemanager
     -   Eg: http://codeigniter.richfilemanager/richfilemanager
+
+Versions:
+
+1.  Codeigniter - v3.1.8 ( <https://codeigniter.com/> )
+
+2.  RichFileManager –
+    [v2.7.5](https://github.com/servocoder/RichFilemanager/tree/v2.7.5)
+    (<https://github.com/servocoder/RichFilemanager>)
+
+3.  RichFileManager-PHP - v1.2.4
+    (<https://github.com/servocoder/RichFilemanager-PHP>)
+
+
+
