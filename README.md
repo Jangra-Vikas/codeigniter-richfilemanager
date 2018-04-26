@@ -1,6 +1,6 @@
 # codeigniter-richfilemanager
 Simple integration of the RichFileManager Package
-(<https://github.com/servocoder/RichFilemanager>) into CodeIngiter ( Codeigniter RichFileManager Integration ).
+(<https://github.com/servocoder/RichFilemanager>) into CodeIngiter.
 
 **Installation**
 
@@ -21,7 +21,7 @@ Simple integration of the RichFileManager Package
     -   Add composer.json to codeigniter root folder if does not exit and add
         the following code
 
-        ``` 
+        ```php 
 		   // composer will create a vendor folder under codeigniter application folder
           "config": {
          				"vendor-dir": "application/vendor"
@@ -29,8 +29,7 @@ Simple integration of the RichFileManager Package
           "require": {
         				"servocoder/richfilemanager-php": "\^1.2"
         			} 
-					
-					```
+	```
 
 -   Step 4:
 
