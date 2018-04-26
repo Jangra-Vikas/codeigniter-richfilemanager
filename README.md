@@ -33,9 +33,9 @@ Simple integration of the RichFileManager Package
     -   Copy the following files into your project.
         1.  Server component Setup:
             -   application/config/richfilemanagerlib.php
-            -   application/controllers/RichFilemanager.php
-            -   application/logs/richfilemanager-log.php         
+            -   application/controllers/RichFilemanager.php                   
             -   application/libraries/RichFilemanagerLib.php
+	    -   application/logs/richfilemanager-log.php  
 
         2.  Client component Setup:
             -   application/views/richfilemanager.html
