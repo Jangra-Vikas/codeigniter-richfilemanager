@@ -22,8 +22,7 @@ Simple integration of the RichFileManager Package
         the following code
 
         ``` 
-		   // composer will create a vendor folder under codeigniter
-            application folder
+		   // composer will create a vendor folder under codeigniter application folder
           "config": {
          				"vendor-dir": "application/vendor"
          			},
