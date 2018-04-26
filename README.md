@@ -16,7 +16,7 @@ Simple integration of the RichFileManager Package
 
     -   Tell the CodeIgniter to auto load the composer installed packages in
         application/vendor by set composer_autoland to TRUE
-        \`\`\`\$config['composer_autoload'] = TRUE;\`\`\` in
+        `$config['composer_autoload'] = TRUE;` in
         application/config/config.php
 
 -   Step 3:
@@ -24,20 +24,14 @@ Simple integration of the RichFileManager Package
     -   Add composer.json to codeigniter root folder if does not exit and add
         the following code
 
-        1.  // composer will create a vendor folder under codeigniter
+        ``` // composer will create a vendor folder under codeigniter
             application folder
-
-        2.  "config": {
-
-        3.  "vendor-dir": "application/vendor"
-
-        4.  },
-
-        5.  "require": {
-
-        6.  "servocoder/richfilemanager-php": "\^1.2"
-
-        7.  },
+          "config": {
+         				"vendor-dir": "application/vendor"
+         			},
+          "require": {
+        				"servocoder/richfilemanager-php": "\^1.2"
+        			}```
 
 -   Step 4:
 
@@ -49,8 +43,8 @@ Simple integration of the RichFileManager Package
 
     -   Set the router (optional)
 
-        1.  Add the following \$route['richfilemanager/(:any)'] =
-            'richfilemanager/\$1'; entry to application/config/routes.php
+        1.  Add the following `$route['richfilemanager/(:any)'] =
+            'richfilemanager/\$1`; an entry to application/config/routes.php
 
     -   Copy the following files into your project.
 
