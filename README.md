@@ -33,7 +33,7 @@ Simple integration of the RichFileManager Package
         ```
 
 -   Step 4:
-
+    -   Run `compser install` in project root folder. 
     -   Composer will install richfilemanager-php and keep the files under
         application/vendor folder. CodeIgniter will autoload richfildemanager
         package to our project.
@@ -52,6 +52,8 @@ Simple integration of the RichFileManager Package
             -   application/config/richfilemanagerlib.php
 
             -   application/controllers/RichFilemanager.php
+
+            -   application/logs/richfilemanager-log.php            
 
             -   application/libraries/RichFilemanagerLib.php
 
