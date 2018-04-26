@@ -21,14 +21,14 @@ Simple integration of the RichFileManager Package
     -   Add composer.json to codeigniter root folder if does not exit and add
         the following code
 
-        ```php 
-		   // composer will create a vendor folder under codeigniter application folder
-          "config": {
-         				"vendor-dir": "application/vendor"
-         			},
-          "require": {
-        				"servocoder/richfilemanager-php": "\^1.2"
-        			} ```
+        ```javascript
+	"require": {		
+		"servocoder/richfilemanager-php": "^1.2"
+	},
+	"config": {
+        "vendor-dir": "application/vendor"        
+    }	
+	```
 
 -   Step 4:
 
