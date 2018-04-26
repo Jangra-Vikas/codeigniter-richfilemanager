@@ -22,13 +22,15 @@ Simple integration of the RichFileManager Package
         the following code
 
         ```javascript
-	"require": {		
-		"servocoder/richfilemanager-php": "^1.2"
-	},
-	"config": {
-        "vendor-dir": "application/vendor"        
-    }	
-	```
+
+            "require": {		
+                    "servocoder/richfilemanager-php": "^1.2"
+                },
+            "config": {
+                "vendor-dir": "application/vendor"        
+            }	
+
+        ```
 
 -   Step 4:
 
@@ -72,5 +74,5 @@ Simple integration of the RichFileManager Package
             -   userfiles
 
 -   Step 6:
-
+    -   http://<project.com>/richfilemanager
     -   Eg: http://codeigniter.richfilemanager/richfilemanager
