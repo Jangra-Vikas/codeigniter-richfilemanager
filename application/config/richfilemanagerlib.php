@@ -321,7 +321,7 @@ $config = array(
                           * S3 SETTINGS
                           * Check options description: https://github.com/frostealth/yii2-aws-s3
                           ******************************************************************************/
-                            $config['credentials'] => [
+                        'credentials' => [
                                                     'region' => 'your region',
                                                     'bucket' => 'your aws s3 bucket',
                                                     'endpoint' => null,

@@ -9,7 +9,7 @@ class RichFilemanager extends CI_Controller {
     
 	public function index()
 	{     
-        $this->load->view('RichFilemanager/index');
+        $this->load->view('richfilemanager.html');
     }
     
     public function localAPI()
@@ -17,7 +17,7 @@ class RichFilemanager extends CI_Controller {
        $this->richfilemanagerlib->local()->run(); 
     }
     
-    public function s3()
+    public function s3API()
 	{
         $this->richfilemanagerlib->s3()->run();        
     }
