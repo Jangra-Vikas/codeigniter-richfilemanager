@@ -6,15 +6,10 @@ Simple integration of the RichFileManager Package
 
 -   Step 1: We will use the composer for integration so that it will be easy to install and upgrades.
 
--   Step 2:
-    -   Tell the CodeIgniter to auto load the composer installed packages in
-        application/vendor by set composer_autoland to TRUE
-        `$config['composer_autoload'] = TRUE;` in
-        application/config/config.php
+-   Step 2: Tell the CodeIgniter to auto load the composer installed packages in application/vendor by set composer_autoland to TRUE
+        `$config['composer_autoload'] = TRUE;` in application/config/config.php
 
--   Step 3:
-    -   Add composer.json to codeigniter root folder if does not exit and add
-        the following code
+-   Step 3: Add composer.json to codeigniter root folder if does not exit and add the following code
         ```javascript
             "require": {		
                     "servocoder/richfilemanager-php": "^1.2"
