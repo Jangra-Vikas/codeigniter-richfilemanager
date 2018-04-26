@@ -10,15 +10,14 @@ Simple integration of the RichFileManager Package
         `$config['composer_autoload'] = TRUE;` in application/config/config.php
 
 -   Step 3: Add composer.json to codeigniter root folder if does not exit and add the following code
-
-        
-            "require": {		
-                    "servocoder/richfilemanager-php": "^1.2"
-                },
-            "config": {
-                "vendor-dir": "application/vendor"        
-                }	
-        
+```javascript
+  "require": {		
+      "servocoder/richfilemanager-php": "^1.2"
+    },
+    "config": {
+          "vendor-dir": "application/vendor"        
+      }	
+```        
 	
 -   Step 4:
     -   Run `compser install` in project root folder. 
@@ -35,7 +34,7 @@ Simple integration of the RichFileManager Package
             -   application/config/richfilemanagerlib.php
             -   application/controllers/RichFilemanager.php                   
             -   application/libraries/RichFilemanagerLib.php
-	    -   application/logs/richfilemanager-log.php  
+	          -   application/logs/richfilemanager-log.php  
 
         2.  Client component Setup:
             -   application/views/richfilemanager.html
